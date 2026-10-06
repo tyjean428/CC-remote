@@ -23,12 +23,12 @@
 
 ### 预览版下载
 
-[打开下载页](https://videopmt.com:8443/)
+[打开下载页](https://videopmt.com/)
 
 | 平台 | 版本 | 安装包 | 对应完整源码 |
 | --- | --- | --- | --- |
-| Windows | 0.5.2-preview | [下载安装程序](https://videopmt.com:8443/releases/windows/XiXiRemoteSetup.exe) | [Windows 源码](sources/windows/0.5.2-preview) |
-| Android | 0.1.6-preview | [下载 APK](https://videopmt.com:8443/releases/android/XiXiRemote.apk) | [Android 源码](sources/android/0.1.6-preview) |
+| Windows | 0.5.3-preview | [下载安装程序](https://videopmt.com/releases/windows/XiXiRemoteSetup.exe) | [Windows 源码](sources/windows/0.5.3-preview) |
+| Android | 0.1.7-preview | [下载 APK](https://videopmt.com/releases/android/XiXiRemote.apk) | [Android 源码](sources/android/0.1.7-preview) |
 
 ### 三步开始连接
 

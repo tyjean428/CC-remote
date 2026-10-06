@@ -6,8 +6,8 @@
 
 | 平台 | 安装包版本 | 完整源码 |
 | --- | --- | --- |
-| Windows | 0.5.2-preview | [Windows 快照](sources/windows/0.5.2-preview/) |
-| Android | 0.1.6-preview | [Android 快照](sources/android/0.1.6-preview/) |
+| Windows | 0.5.3-preview | [Windows 快照](sources/windows/0.5.3-preview/) |
+| Android | 0.1.7-preview | [Android 快照](sources/android/0.1.7-preview/) |
 
 进入对应目录，先阅读 `README.md` 和 `manifest.json`。清单标明安装包 SHA256、
 源码来源及文件校验记录，构建说明与脚本保存在各自快照内。使用 GitHub 的

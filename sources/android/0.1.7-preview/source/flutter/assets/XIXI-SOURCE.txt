@@ -1,0 +1,4 @@
+西西远程预览版使用 RustDesk 开源远控引擎，保留 AGPL-3.0。
+预览版本: 0.1.7-preview / versionCode 8。
+固定上游: https://github.com/rustdesk/rustdesk/tree/fada664df7a294d1d1a9ca3e7cd3637069122f17
+本预览版的对应修改源码随 APK 另提供。权限、后台、锁屏与无人值守须实际验证。
