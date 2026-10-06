@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "upstream": {
+    "url": "https://github.com/rustdesk/rustdesk.git",
+    "tag": "1.5.0",
+    "commit": "fada664df7a294d1d1a9ca3e7cd3637069122f17",
+    "hbbCommonCommit": "229b904508364c8997aad0fb5af57effac859f60",
+    "license": "AGPL-3.0"
+  },
+  "flutter": {
+    "version": "3.24.5",
+    "commit": "dec2ee5c1f98f8e84a7d5380c05eb8a3d0a81668",
+    "dart": "3.5.4"
+  },
+  "bridgeGeneration": {
+    "flutter": "3.22.3",
+    "rust": "1.75",
+    "cargoExpand": "1.0.95",
+    "flutterRustBridgeCodegen": "1.80.1",
+    "source": ".github/workflows/bridge.yml"
+  },
+  "androidNativeBuild": {
+    "ndk": "r28c",
+    "cargoNdk": "3.1.2",
+    "compileSdk": 36,
+    "targetSdk": 36,
+    "minSdk": 22
+  }
+}

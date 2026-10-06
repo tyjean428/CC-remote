@@ -1,0 +1,4 @@
+# Local/editor files are not publication contents.
+.xixi-publication-owned
+*.user
+*.log

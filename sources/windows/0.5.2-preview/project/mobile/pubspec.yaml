@@ -1,0 +1,12 @@
+name: xixi_remote_ui
+description: Silver mobile device management UI, integrated by overlay into pinned RustDesk source.
+publish_to: none
+version: 0.1.0
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

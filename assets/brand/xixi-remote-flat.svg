@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-label="西西远程：电脑与手机双向连接">
+  <rect x="1" y="1" width="126" height="126" rx="28" fill="#F4F7FC" stroke="#D5DEEC"/>
+  <path d="M50 73H66V90H50Z" fill="#245BE2"/>
+  <rect x="41" y="89" width="34" height="5" rx="2.5" fill="#245BE2"/>
+  <rect x="23" y="27" width="70" height="49" rx="8" fill="#245BE2"/>
+  <rect x="28" y="32" width="60" height="34" rx="4" fill="#FFFFFF"/>
+  <path d="M45 49H64M58 43L64 49L58 55" stroke="#245BE2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="74" y="50" width="32" height="54" rx="8" fill="#F4F7FC"/>
+  <rect x="77" y="53" width="26" height="48" rx="6" fill="#245BE2"/>
+  <rect x="81" y="59" width="18" height="33" rx="2.5" fill="#FFFFFF"/>
+  <path d="M94 76H86M89.5 72.5L86 76L89.5 79.5" stroke="#245BE2" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M87 96H93" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

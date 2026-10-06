@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "applicationId": "com.xixi.remote.preview",
+  "previewVersionName": "0.1.5-preview",
+  "previewVersionCode": 6,
+  "kotlinNamespace": "com.carriez.flutter_hbb",
+  "flutterVersion": "3.24.5",
+  "jdk": {
+    "version": "17.0.16+8",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip",
+    "file": "OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip",
+    "bytes": 190520081,
+    "sha256": "8c7cfff78a55c56ebaf470ed6a89c6466b47d8274bdabdda997d7507c20325c5"
+  },
+  "platform": {
+    "api": 36,
+    "revision": 2,
+    "url": "https://dl.google.com/android/repository/platform-36_r02.zip",
+    "file": "platform-36_r02.zip",
+    "bytes": 65878410,
+    "sha1": "2c1a80dd4d9f7d0e6dd336ec603d9b5c55a6f576",
+    "checksumSource": "https://dl.google.com/android/repository/repository2-3.xml"
+  },
+  "pluginPlatforms": [
+    {
+      "api": 31,
+      "revision": 1,
+      "url": "https://dl.google.com/android/repository/platform-31_r01.zip",
+      "file": "platform-31_r01.zip",
+      "bytes": 56475526,
+      "sha1": "ca5bcaa565cb37e9d287051d6dd0e49a5426ec29",
+      "checksumSource": "https://dl.google.com/android/repository/repository2-3.xml"
+    },
+    {
+      "api": 32,
+      "revision": 1,
+      "url": "https://dl.google.com/android/repository/platform-32_r01.zip",
+      "file": "platform-32_r01.zip",
+      "bytes": 66108299,
+      "sha1": "afae86ed55d29733d50996ffed832f2d1bd75b9a",
+      "checksumSource": "https://dl.google.com/android/repository/repository2-3.xml"
+    },
+    {
+      "api": 33,
+      "revision": 3,
+      "url": "https://dl.google.com/android/repository/platform-33-ext3_r03.zip",
+      "file": "platform-33-ext3_r03.zip",
+      "bytes": 67334237,
+      "sha1": "394bc86d8d3452aa4d419b67743025a6fb2cd9d0",
+      "checksumSource": "https://dl.google.com/android/repository/repository2-3.xml"
+    }
+  ],
+  "officialApk": {
+    "path": "tools/android/rustdesk.apk",
+    "bytes": 77451974,
+    "sha256": "b7910dea1b6ec4a079aa753e0432c2269b843d89d900c7a3930b6ec13f3ba112"
+  },
+  "nativeRust": {
+    "arm64-v8a": "4c403b1a6f280994665d36ecf1c5bc09be1dac64c8ce18aa24abb871da1ce6de",
+    "armeabi-v7a": "2fbff3701a2f3f93c3fe15533d3e32e8af8d13472a029406859a9e69f9020ae7",
+    "x86_64": "2f1f34a1954bdb1d4c4af66dcb78fa33bc82d9e71726250b75fc6127404b0256"
+  },
+  "gradle": {
+    "version": "8.11.1",
+    "distribution": "all",
+    "bytes": 230079680,
+    "sha256": "89d4e70e4e84e2d2dfbb63e4daa53e21b25017cc70c37e4eea31ee51fb15098a",
+    "checksumUrl": "https://services.gradle.org/distributions/gradle-8.11.1-all.zip.sha256"
+  }
+}

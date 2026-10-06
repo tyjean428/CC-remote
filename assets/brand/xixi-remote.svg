@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-labelledby="xixi-title xixi-description">
+  <title id="xixi-title">西西远程</title>
+  <desc id="xixi-description">银白圆角底座上，钴蓝电脑与手机通过双向箭头连接。</desc>
+  <defs>
+    <linearGradient id="xixi-silver" x1="20" y1="7" x2="104" y2="127" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.48" stop-color="#F4F7FC"/>
+      <stop offset="1" stop-color="#E5EBF4"/>
+    </linearGradient>
+    <linearGradient id="xixi-blue" x1="31" y1="28" x2="88" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3978F8"/>
+      <stop offset="0.5" stop-color="#245BE2"/>
+      <stop offset="1" stop-color="#1745B7"/>
+    </linearGradient>
+    <linearGradient id="xixi-glass" x1="31" y1="34" x2="86" y2="73" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EAF0FD"/>
+    </linearGradient>
+    <linearGradient id="xixi-phone" x1="77" y1="54" x2="102" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3978F8"/>
+      <stop offset="1" stop-color="#1745B7"/>
+    </linearGradient>
+  </defs>
+  <!-- One restrained silver surface; all strokes and corners scale together. -->
+  <rect x="1" y="1" width="126" height="126" rx="28" fill="url(#xixi-silver)"/>
+  <rect x="1.5" y="1.5" width="125" height="125" rx="27.5" stroke="#D5DEEC"/>
+  <path d="M29 3.5H99C113.1 3.5 124.5 14.9 124.5 29" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- The monitor has a broad silhouette, rather than a thin line drawing. -->
+  <rect x="23" y="30" width="70" height="49" rx="8" fill="#163E92" fill-opacity="0.10"/>
+  <path d="M50 73H66V90H50Z" fill="url(#xixi-blue)"/>
+  <rect x="41" y="89" width="34" height="5" rx="2.5" fill="url(#xixi-blue)"/>
+  <rect x="23" y="27" width="70" height="49" rx="8" fill="url(#xixi-blue)"/>
+  <rect x="28" y="32" width="60" height="34" rx="4" fill="url(#xixi-glass)"/>
+  <path d="M31 33H70L44 65H31C29.3 65 28 63.7 28 62V36C28 34.3 29.3 33 31 33Z" fill="#FFFFFF" fill-opacity="0.48"/>
+  <path d="M45 49H64M58 43L64 49L58 55" stroke="#245BE2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- A silver rim separates the phone clearly from the monitor at small sizes. -->
+  <rect x="74" y="50" width="32" height="54" rx="8" fill="#F5F8FD"/>
+  <rect x="77" y="53" width="26" height="48" rx="6" fill="url(#xixi-phone)"/>
+  <rect x="81" y="59" width="18" height="33" rx="2.5" fill="url(#xixi-glass)"/>
+  <path d="M94 76H86M89.5 72.5L86 76L89.5 79.5" stroke="#245BE2" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M87 96H93" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-opacity="0.88"/>
+</svg>
