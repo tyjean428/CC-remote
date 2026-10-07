@@ -6,8 +6,8 @@
 
 | 平台 | 安装包版本 | 完整源码 |
 | --- | --- | --- |
-| Windows | 0.5.3-preview | [Windows 快照](sources/windows/0.5.3-preview/) |
-| Android | 0.1.7-preview | [Android 快照](sources/android/0.1.7-preview/) |
+| Windows | 0.5.4-preview | [Windows 快照](sources/windows/0.5.4-preview/) |
+| Android | 0.1.8-preview（versionCode 9） | [Android 快照](sources/android/0.1.8-preview/) |
 
 进入对应目录，先阅读 `README.md` 和 `manifest.json`。清单标明安装包 SHA256、
 源码来源及文件校验记录，构建说明与脚本保存在各自快照内。使用 GitHub 的
@@ -15,6 +15,11 @@
 
 快照内保留发布时使用的公开连接配置；签名私钥、访问密码、服务器私钥、设备
 数据库、运行日志和开发工具缓存不属于公开发布内容。你应使用自己的签名证书。
+
+两端本版内置 ID 服务 `videopmt.com:24443`、中继 `videopmt.com:21117`，保留原有
+服务器公钥。旧内置 IP 的 `24443`、`443` 配置及设备列表按完整服务指纹迁移；
+自定义服务器配置与原设备列表保留。此前 Windows 0.5.2／0.5.3、Android 0.1.6／0.1.7
+目录和发布标签继续作为历史快照保存。
 
 公开导出只整理非运行的测试样例、工具路径和机器生成记录；实际应用代码、
 平台实现、桥、依赖锁和公开配置保持发布版本的字节。导出说明见各快照清单。

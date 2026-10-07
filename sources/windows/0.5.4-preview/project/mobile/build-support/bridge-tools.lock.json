@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "fada664df7a294d1d1a9ca3e7cd3637069122f17",
+  "hbbCommonCommit": "229b904508364c8997aad0fb5af57effac859f60",
+  "flutter": {
+    "version": "3.22.3",
+    "commit": "b0850beeb25f6d5b10426284f506557f66181b36",
+    "engine": "235db911ba279722f5e685f38b0ed30fa7e8570a",
+    "url": "https://github.com/flutter/flutter.git",
+    "dartUrl": "https://storage.googleapis.com/flutter_infra_release/flutter/235db911ba279722f5e685f38b0ed30fa7e8570a/dart-sdk-windows-x64.zip",
+    "dartBytes": 231210339,
+    "dartMd5Base64": "Tjq9TYXgUGNUBzP4rWMWLA=="
+  },
+  "rust": {
+    "version": "1.75.0",
+    "target": "x86_64-pc-windows-msvc",
+    "manifestUrl": "https://static.rust-lang.org/dist/channel-rust-1.75.0.toml",
+    "components": [
+      { "name": "rustc", "directory": "rustc", "file": "rustc-1.75.0-x86_64-pc-windows-msvc.tar.xz", "bytes": 61581756, "sha256": "712afbde1c526937d3d7fe10f489cd1e5d74822bd0518669971e36dfd7c5c089" },
+      { "name": "cargo", "directory": "cargo", "file": "cargo-1.75.0-x86_64-pc-windows-msvc.tar.xz", "bytes": 6164964, "sha256": "0a19cf3b5d72287f4ae996c1329be03b929d72f795bc6f275dc22100cf3c096c" },
+      { "name": "rust-std", "directory": "rust-std-x86_64-pc-windows-msvc", "file": "rust-std-1.75.0-x86_64-pc-windows-msvc.tar.xz", "bytes": 18776020, "sha256": "209d3dac44e91dc8070604f545010d477c95afd30c0e96c3f2eeb10c6fe85070" },
+      { "name": "rustfmt-preview", "directory": "rustfmt-preview", "file": "rustfmt-1.75.0-x86_64-pc-windows-msvc.tar.xz", "bytes": 1817396, "sha256": "63db20d7ba7de48129b24618ad0b2825f429c766973a6d84665bb3b116a84d7d" }
+    ]
+  },
+  "frb": {
+    "version": "1.80.1",
+    "url": "https://github.com/fzyzcjy/flutter_rust_bridge/releases/download/v1.80.1/flutter_rust_bridge_codegen-x86_64-pc-windows-msvc-v1.80.1.zip",
+    "checksumUrl": "https://github.com/fzyzcjy/flutter_rust_bridge/releases/download/v1.80.1/flutter_rust_bridge_codegen-x86_64-pc-windows-msvc-v1.80.1.zip.sha256",
+    "bytes": 3653244,
+    "sha256": "c43e58da7bcc47be819ab1e78084e8611e8609405e8577626a835eed64f5e91a"
+  },
+  "llvm": {
+    "version": "14.0.6",
+    "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/LLVM-14.0.6-win64.exe",
+    "bytes": 276124398,
+    "md5Base64": "U+xWPi7noqr5I6xJmaR4Gw==",
+    "verification": "Official GitHub release asset has no published SHA256 digest; official asset response supplies this content MD5. Record local SHA256 after verification. Extract files with 7-Zip; never execute installer."
+  },
+  "cargoExpand": {
+    "version": "1.0.95",
+    "requiredForThisRoute": false,
+    "reason": "The official 1.80.1 codegen source uses cargo metadata and syn source parsing, not cargo expand. CI installs cargo-expand but the generator does not invoke it."
+  },
+  "licenses": [
+    { "file": "LICENSE-FRB.txt", "directory": "frb-1.80.1", "url": "https://raw.githubusercontent.com/fzyzcjy/flutter_rust_bridge/9904bc6ce4a9433c035141d931f7bc69c83655ab/LICENSE", "bytes": 1064, "sha256": "d56622df159a9967bd6a16c726823a2cbe8546c1f18437617283c9da27000390" },
+    { "file": "LICENSE-LLVM.txt", "directory": "llvm-14.0.6", "url": "https://raw.githubusercontent.com/llvm/llvm-project/llvmorg-14.0.6/llvm/LICENSE.TXT", "bytes": 15141, "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee" },
+    { "file": "LICENSE-Clang.txt", "directory": "llvm-14.0.6", "url": "https://raw.githubusercontent.com/llvm/llvm-project/llvmorg-14.0.6/clang/LICENSE.TXT", "bytes": 15140, "sha256": "ebcd9bbf783a73d05c53ba4d586b8d5813dcdf3bbec50265860ccc885e606f47" }
+  ]
+}

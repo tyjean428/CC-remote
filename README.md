@@ -1,5 +1,6 @@
 <div align="center">
   <img src="assets/brand/xixi-remote.svg" width="112" height="112" alt="西西远程品牌图标" />
+  <p>Video PMT</p>
   <h1>西西远程 · CC Remote</h1>
   <p><strong>跨越屏幕，连接你的设备。</strong></p>
   <p>为 Windows 与 Android 打造的远程控制软件。<br />安装客户端，输入设备 ID，让手机与电脑之间的连接更简单。</p>
@@ -27,8 +28,10 @@
 
 | 平台 | 版本 | 安装包 | 对应完整源码 |
 | --- | --- | --- | --- |
-| Windows | 0.5.3-preview | [下载安装程序](https://videopmt.com/releases/windows/XiXiRemoteSetup.exe) | [Windows 源码](sources/windows/0.5.3-preview) |
-| Android | 0.1.7-preview | [下载 APK](https://videopmt.com/releases/android/XiXiRemote.apk) | [Android 源码](sources/android/0.1.7-preview) |
+| Windows | 0.5.4-preview | [下载安装程序](https://videopmt.com/releases/windows/XiXiRemoteSetup.exe) | [Windows 源码](sources/windows/0.5.4-preview) |
+| Android | 0.1.8-preview（versionCode 9） | [下载 APK](https://videopmt.com/releases/android/XiXiRemote.apk) | [Android 源码](sources/android/0.1.8-preview) |
+
+本版连接服务采用域名地址，已内置在两端客户端中。覆盖安装新版后，已知旧版内置配置与设备列表会自动迁移；自定义服务器配置保留，无需手填新的服务器地址。
 
 ### 三步开始连接
 

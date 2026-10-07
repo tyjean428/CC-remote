@@ -1,0 +1,49 @@
+{
+  "sourceCommit": "fada664df7a294d1d1a9ca3e7cd3637069122f17",
+  "apkSha256": "b7910dea1b6ec4a079aa753e0432c2269b843d89d900c7a3930b6ec13f3ba112",
+  "wireFunctions": 315,
+  "jniClass": "ffi.FFI",
+  "applicationId": "com.xixi.remote.preview",
+  "namespace": "com.carriez.flutter_hbb",
+  "previewVersionName": "0.1.8-preview",
+  "previewVersionCode": 9,
+  "nativeFiles": [
+    {
+      "abi": "arm64-v8a",
+      "file": "librustdesk.so",
+      "bytes": 36688296,
+      "sha256": "4c403b1a6f280994665d36ecf1c5bc09be1dac64c8ce18aa24abb871da1ce6de"
+    },
+    {
+      "abi": "arm64-v8a",
+      "file": "libc++_shared.so",
+      "bytes": 1794776,
+      "sha256": "d523468d62d9b603cb3354294d70d4b2feabf2c3f1e43b0c96c9aabf32813708"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "file": "librustdesk.so",
+      "bytes": 28475124,
+      "sha256": "2fbff3701a2f3f93c3fe15533d3e32e8af8d13472a029406859a9e69f9020ae7"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "file": "libc++_shared.so",
+      "bytes": 1301936,
+      "sha256": "fd7bbe2586a529ed0eb98ca8a9d1507468173069f80e58db1c007ce874fa1588"
+    },
+    {
+      "abi": "x86_64",
+      "file": "librustdesk.so",
+      "bytes": 40501272,
+      "sha256": "2f1f34a1954bdb1d4c4af66dcb78fa33bc82d9e71726250b75fc6127404b0256"
+    },
+    {
+      "abi": "x86_64",
+      "file": "libc++_shared.so",
+      "bytes": 1617608,
+      "sha256": "3d8817f3a50515665b9152c620dedfd8509f84b68307f5f7ef20a75d9ae08f69"
+    }
+  ],
+  "runtimeVerified": false
+}
