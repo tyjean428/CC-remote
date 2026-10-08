@@ -1,0 +1,53 @@
+{
+  "generatedUtc": "2026-10-03T13:17:50.4570056Z",
+  "sourceCommit": "fada664df7a294d1d1a9ca3e7cd3637069122f17",
+  "hbbCommonCommit": "229b904508364c8997aad0fb5af57effac859f60",
+  "flutterCommit": "b0850beeb25f6d5b10426284f506557f66181b36",
+  "flutterVersion": "3.22.3",
+  "rustVersion": "rustc 1.75.0 (82e1608df 2023-12-21)",
+  "codegenVersion": "flutter_rust_bridge_codegen 1.80.1",
+  "preparation": "Official Windows codegen with UUID enabled by its default features; official CI extended_text downgrade in staging only. No Rust native build. cargo-expand is not invoked by this codegen.",
+  "workflowSha256": "309418f01afefff55567ed90ee048a63cc5905ef4eca610ff678576346454e60",
+  "cargoLockSha256": "986bbf1856e3e85c9663b15f12544101d5319932808b3b5afd13a4d73789902e",
+  "pubLockSha256": "275fce27d2b4ff62462e7516f34541edb16d1bf99d517acfa8abcbcc0d1de542",
+  "headerDiagnosticCheck": "No ffigen SEVERE or fatal error diagnostic.",
+  "cHeaders": {
+    "llvm": "${PROJECT_ROOT}/tools/bridge-prep/llvm-14.0.6/lib/clang/14.0.6/include",
+    "msvc": "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\include",
+    "ucrt": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt"
+  },
+  "artifacts": [
+    {
+      "path": "src/bridge_generated.rs",
+      "bytes": 164380,
+      "sha256": "353fce2acb0eaccefa2efe36440dc5ae36f9b08ff1021d0ff2a4f8b89f071862"
+    },
+    {
+      "path": "src/bridge_generated.io.rs",
+      "bytes": 59154,
+      "sha256": "8012ad417c891e497c99b57863d6006139da9217def5c6bf07f4cb8295fa8120"
+    },
+    {
+      "path": "flutter/lib/generated_bridge.dart",
+      "bytes": 448995,
+      "sha256": "7f0bcabe439b02b0062e2e9053b0d4735e2cfca7513fbfa0c3f52cf71fcdde90"
+    },
+    {
+      "path": "flutter/lib/generated_bridge.freezed.dart",
+      "bytes": 23588,
+      "sha256": "c7e9daac122dffffc62b7cbbe6ad4f5013fbc332de3878aa7acb321b13ab9cad"
+    },
+    {
+      "path": "flutter/macos/Runner/bridge_generated.h",
+      "bytes": 62541,
+      "sha256": "40d0f81a4152c57cc36ccd67f18c0b2b7bf89a9a625083377e67971dbb0aaf92"
+    },
+    {
+      "path": "flutter/ios/Runner/bridge_generated.h",
+      "bytes": 62541,
+      "sha256": "40d0f81a4152c57cc36ccd67f18c0b2b7bf89a9a625083377e67971dbb0aaf92"
+    }
+  ],
+  "published": true,
+  "dartAnalysis": "dart analyze lib/generated_bridge.dart lib/generated_bridge.freezed.dart: exit 0, No issues found"
+}

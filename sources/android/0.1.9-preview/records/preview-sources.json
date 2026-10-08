@@ -1,0 +1,131 @@
+{
+  "previewVersionName": "0.1.9-preview",
+  "previewVersionCode": 10,
+  "sourceCommit": "fada664df7a294d1d1a9ca3e7cd3637069122f17",
+  "frontendSources": [
+    {
+      "path": "flutter/lib/mobile/pages/home_page.dart",
+      "sha256": "10691030f457df3cf2c6a49e8088d278016e9bb7acf557339e57ce64462a12e8"
+    },
+    {
+      "path": "flutter/pubspec.lock",
+      "sha256": "edf5a6f307ab21b757b158ee00a12cf735cbd053cc747fde0f78c0a376188a2d"
+    },
+    {
+      "path": "flutter/pubspec.yaml",
+      "sha256": "46e11f695558b47b99eb50b829c2c5517236b22f5466b707710b2de30e8c1ce0"
+    },
+    {
+      "path": "flutter/lib/xixi/device_connection_state.dart",
+      "sha256": "f47b38c8dc85786dbaaebd22b570cc25f1928faabb6b634c716eadcf742596d7"
+    },
+    {
+      "path": "flutter/lib/xixi/device_scope.dart",
+      "sha256": "a490184d8ca99d7e838bb586939ac5eca7dee66412473d462e1f461d8dc47ccb"
+    },
+    {
+      "path": "flutter/lib/xixi/file_device_storage.dart",
+      "sha256": "827c8aa0b4edc0aed016826972005dcd50469bfd937e67a91f1079624c17aff6"
+    },
+    {
+      "path": "flutter/lib/xixi/private_connection_profile.dart",
+      "sha256": "b41859732c4a944fe70a2c27b54e4cc472b6bd65e4f11eb368d922a1f6afb896"
+    },
+    {
+      "path": "flutter/lib/xixi/saved_devices.dart",
+      "sha256": "672e75cf4265612f73be6e48eafab25b7f2d984650548d2162d1d5444558a019"
+    },
+    {
+      "path": "flutter/lib/xixi/xixi_connection_page.dart",
+      "sha256": "45b88810499c49508a2ff1a50d2caa0dcb916d880c70385da44a0ca03ba03396"
+    },
+    {
+      "path": "flutter/lib/xixi/xixi_device_screen.dart",
+      "sha256": "e72961fb507593e5d94dd24545532ec8fe4353bbd31f2e4f52fcea4b77c03e97"
+    },
+    {
+      "path": "flutter/lib/xixi/xixi_sharing_page.dart",
+      "sha256": "cabacb3f968b6f98905c357607f780eaeb340d4b1635fa87c68b95811ccdf503"
+    },
+    {
+      "path": "flutter/lib/xixi/xixi_sharing_screen.dart",
+      "sha256": "bcd36670db93422738c6bc958a7527f7fc353a2bec75d6f344142192b4fa42b7"
+    },
+    {
+      "path": "flutter/lib/xixi/xixi_unattended_state.dart",
+      "sha256": "d21e6c83fa5c8ebe6572ae669d2ac10fe6a789bc843b0b15ea4813f41b6b9bf1"
+    },
+    {
+      "path": "flutter/android/app/src/main/res/drawable/xixi_launcher.xml",
+      "sha256": "5d47f861eb6c2cf81764c36f2a3afdd858df49060bf2d7b1dc90d806ed6b680a"
+    },
+    {
+      "path": "flutter/assets/XIXI-DEFAULT-CONNECTION.json",
+      "sha256": "a91b99df37b8c4edac62a93b0b64bb84afc66b491d3383a3158c8eb28c4309e4"
+    },
+    {
+      "path": "flutter/assets/XIXI-PREVIOUS-CONNECTION.json",
+      "sha256": "f1f26459e1cf900e47c69da799ff786fcf6c3e40d3395a32f80100a8147944eb"
+    },
+    {
+      "path": "flutter/assets/XIXI-PREVIOUS-PUBLIC-CONNECTIONS.json",
+      "sha256": "e4c07c4fa933d415f30c222be74229dee0b603801872a0840f8f32bbba0f8130"
+    },
+    {
+      "path": "flutter/lib/models/server_model.dart",
+      "sha256": "7dd6c00c71d4b1e23d63bebc25ccac6eb36aac0c5da82b54cd202f77cd209e69"
+    }
+  ],
+  "nativeOverlaySources": [
+    {
+      "path": "flutter/android/app/src/main/kotlin/com/carriez/flutter_hbb/XixiUnattended.kt",
+      "sha256": "d3410b6d1660ee66d2232300ce9eedde4564b206dcfb7fb0b382de66d7e9c0e8"
+    },
+    {
+      "path": "flutter/android/app/src/main/kotlin/com/carriez/flutter_hbb/XixiRecoveryPolicy.kt",
+      "sha256": "3acdbdb5a8fd59a13001447a72af97bebd73b7744035b7bf487410754ad6b27f"
+    },
+    {
+      "path": "flutter/android/app/src/main/kotlin/com/carriez/flutter_hbb/MainService.kt",
+      "sha256": "551259c7209cd14cd9c1fda3d0fb52a5aa7eda2eb516e17e8bc02a483a701d3d"
+    },
+    {
+      "path": "flutter/android/app/src/main/kotlin/com/carriez/flutter_hbb/MainActivity.kt",
+      "sha256": "a89fc8b4f11c5b85b5fca948c9df3d0a4b127b342b892b494096dc19ec6f3426"
+    },
+    {
+      "path": "flutter/android/app/src/main/kotlin/com/carriez/flutter_hbb/InputService.kt",
+      "sha256": "ce4fa4f9fd46e217d81022d7388b4ebbefe01f5428974687a9dbe348572c9adb"
+    },
+    {
+      "path": "flutter/android/app/src/main/kotlin/com/carriez/flutter_hbb/BootReceiver.kt",
+      "sha256": "bae799999a726ff857c2de01223c8a4a367735b1354ca087659acecd567e14f0"
+    },
+    {
+      "path": "flutter/android/app/src/main/res/xml/accessibility_service_config.xml",
+      "sha256": "842efda5aa2db721af1aabec9a0d83a829143aba8b37bc2c677bfcae033e49e0"
+    }
+  ],
+  "nativeOverlayInputs": [
+    {
+      "path": "mobile/android/XixiUnattended.kt",
+      "sha256": "d3410b6d1660ee66d2232300ce9eedde4564b206dcfb7fb0b382de66d7e9c0e8"
+    },
+    {
+      "path": "mobile/android/XixiRecoveryPolicy.kt",
+      "sha256": "3acdbdb5a8fd59a13001447a72af97bebd73b7744035b7bf487410754ad6b27f"
+    },
+    {
+      "path": "mobile/build-support/unattended_overlay.py",
+      "sha256": "ef3c58d1339376f2cb779375c2015ebdf9886cbe5da1a6ccbb3b8fd5d33bb0dc"
+    },
+    {
+      "path": "mobile/build-support/flutter_permission_overlay.py",
+      "sha256": "09a8bf724b122aa1dc7bd151ca6c4dbd91222ff966a77b0ed65c2816144bb1af"
+    },
+    {
+      "path": "mobile/build-support/prepare_android_source.py",
+      "sha256": "ab30a5d21bbffc146eae02450697f415772e5389c8256becb797898e1d61ab28"
+    }
+  ]
+}
